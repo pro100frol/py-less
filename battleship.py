@@ -12,7 +12,7 @@ def print_board(board):
 
 print "Let's play Battleship!"
 print_board(board)
-/
+
 def random_row(board):
 	return randint(0, len(board) - 1)
 
